@@ -32,7 +32,7 @@ h2 {
 }
 
 hr {
-	color: #dddddd;
+	border-color: #FFA06F;
 }
 
 p img {
@@ -57,6 +57,11 @@ textarea#styled {
 	height: 120px;
 }
 
+a:link { color: #b2592a; }
+a:visited { color: #ff7f3c; }
+a:hover { color: #40200f; }
+a:active { color: #7f401E; }
+
 .pageHeader {
 	display: flex;
   /*justify-content: flex-end;
@@ -65,9 +70,9 @@ textarea#styled {
     align-items: baseline;
     background-color: #ffffff;
     width: 100%;
-    border-bottom: #cccccc;
+    border-bottom: #FFA06F;
     border-bottom-style: solid;
-    border-bottom-width: 1px;
+    border-bottom-width: 2px;
 }
 
 .headerName {
@@ -138,6 +143,10 @@ textarea#styled {
   	padding: 20px;
   	background-color: #666666;
   	text-align: center;
+  	border-top: #FFA06F;
+  	border-top-style: solid;
+  	border-top-width: 2px;
+  	color: #4aaaa5;
 }
 
 .imgTextOverlay {
@@ -145,4 +154,29 @@ textarea#styled {
     bottom: 50px;
     background-color: #4aaaa5;
     padding: 10px;
+    text-align: center;
+}
+
+.btn {
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  background: #4aaaa5;
+  padding: 8px 20px 10px 20px;
+  text-decoration: none;
+  width: fit-content;
+  height: 40px;
+}
+
+.btn:hover {
+  background: #4aaaa5;
+  background-image: -webkit-linear-gradient(top, #4aaaa5, #6FFFF7);
+  background-image: -moz-linear-gradient(top, #4aaaa5, #6FFFF7);
+  background-image: -ms-linear-gradient(top, #4aaaa5, #6FFFF7);
+  background-image: -o-linear-gradient(top, #4aaaa5, #6FFFF7);
+  background-image: linear-gradient(to bottom, #4aaaa5, #v);
+  text-decoration: none;
 }
