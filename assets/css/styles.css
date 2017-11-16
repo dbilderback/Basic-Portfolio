@@ -79,6 +79,7 @@ a:active { color: #7f401E; }
 	width: 70%;
 	white-space: nowrap;
 	margin-left: 50px;
+	height: 36px;
 	
 }
 
@@ -86,6 +87,7 @@ a:active { color: #7f401E; }
 	background-color: #4aaaa5;
 	padding: 7px;
     width: fit-content;
+    height: 100%;
 }
 
 .headerMenu {
